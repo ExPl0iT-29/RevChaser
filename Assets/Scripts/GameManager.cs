@@ -38,6 +38,10 @@ public class GameManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(GamePlay);
     }
 
+    public void Quit() {
+        Application.Quit();
+    }
+
 
 
 
